@@ -11,6 +11,7 @@
 	],
 	"scripts": {
 		"build": "tsup",
+		"prepare": "tsup",
 		"dev": "node --enable-source-maps dist/cli.js",
 		"test": "vitest run",
 		"test:watch": "vitest",
